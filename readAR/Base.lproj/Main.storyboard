@@ -36,6 +36,24 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="subject 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpi-v9-eGf">
+                                <rect key="frame" x="31" y="597" width="331" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="22"/>
+                                <color key="textColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="subject 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCD-zM-OiZ">
+                                <rect key="frame" x="31" y="652" width="331" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="22"/>
+                                <color key="textColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.95997443338067634" green="0.93170998904513658" blue="0.86579173503077145" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -51,6 +69,13 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Discover" image="books.vertical" catalog="system" id="eEU-U3-fdR"/>
+                    <connections>
+                        <outlet property="authorLabel" destination="Cjw-CZ-BW6" id="4dg-ub-m2y"/>
+                        <outlet property="bookImageView" destination="cHh-CV-bEe" id="wR6-tt-wLs"/>
+                        <outlet property="descLabel1" destination="wpi-v9-eGf" id="uTR-cm-lvr"/>
+                        <outlet property="descLabel2" destination="fCD-zM-OiZ" id="C47-nw-kgS"/>
+                        <outlet property="titleLabel" destination="Ii2-UD-MwN" id="wio-hU-ZSW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -62,19 +87,58 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="7DF-4Y-FXa" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kFh-Dy-1R1">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="IVu-81-JkE"/>
+                        <segue destination="aJT-cc-Giq" kind="relationship" relationship="viewControllers" id="xu5-GD-1pY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="35Q-oi-lPu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
         </scene>
+        <!--Favorites View Controller-->
+        <scene sceneID="yW3-GY-E1r">
+            <objects>
+                <viewController id="CWJ-j4-6Uu" customClass="FavoritesViewController" customModule="readAR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4b6-TS-Bwi">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="eae-WL-Hcu"/>
+                        <color key="backgroundColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ekg-Jy-h7L"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ffN-pt-1Yp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028" y="670"/>
+        </scene>
+        <!--Favorites-->
+        <scene sceneID="7mD-UT-5vQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aJT-cc-Giq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Favorites" image="heart" catalog="system" id="a6b-0i-RxF"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uPi-cq-3AU">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CWJ-j4-6Uu" kind="relationship" relationship="rootViewController" id="4EZ-oL-fLD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TMo-rn-1dz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="670"/>
+        </scene>
     </scenes>
     <resources>
         <image name="books.vertical" catalog="system" width="128" height="107"/>
+        <image name="heart" catalog="system" width="128" height="107"/>
     </resources>
 </document>

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D978C4C2BCF60DA006AFE2D /* BookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D978C4B2BCF60DA006AFE2D /* BookService.swift */; };
+		6DC196EE2BD5C35D004B9AE3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC196ED2BD5C35D004B9AE3 /* FavoritesViewController.swift */; };
+		6DC196F02BD5D033004B9AE3 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC196EF2BD5D033004B9AE3 /* Book.swift */; };
+		6DC196F32BD640D1004B9AE3 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC196F22BD640D1004B9AE3 /* Nuke */; };
+		6DC196F52BD640D1004B9AE3 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC196F42BD640D1004B9AE3 /* NukeExtensions */; };
+		6DC196F72BD640D1004B9AE3 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC196F62BD640D1004B9AE3 /* NukeUI */; };
+		6DC196F92BD640D1004B9AE3 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC196F82BD640D1004B9AE3 /* NukeVideo */; };
+		6DC196FB2BD70C08004B9AE3 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC196FA2BD70C08004B9AE3 /* UIKitExtensions.swift */; };
 		6DF773DA2BCA44FF00E88BAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF773D92BCA44FF00E88BAD /* AppDelegate.swift */; };
 		6DF773DC2BCA44FF00E88BAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF773DB2BCA44FF00E88BAD /* SceneDelegate.swift */; };
 		6DF773DE2BCA44FF00E88BAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF773DD2BCA44FF00E88BAD /* ViewController.swift */; };
@@ -16,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D978C4B2BCF60DA006AFE2D /* BookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookService.swift; sourceTree = "<group>"; };
+		6DC196ED2BD5C35D004B9AE3 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		6DC196EF2BD5D033004B9AE3 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		6DC196FA2BD70C08004B9AE3 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		6DF773D62BCA44FF00E88BAD /* readAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = readAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF773D92BCA44FF00E88BAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DF773DB2BCA44FF00E88BAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +45,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC196F72BD640D1004B9AE3 /* NukeUI in Frameworks */,
+				6DC196F32BD640D1004B9AE3 /* Nuke in Frameworks */,
+				6DC196F52BD640D1004B9AE3 /* NukeExtensions in Frameworks */,
+				6DC196F92BD640D1004B9AE3 /* NukeVideo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +83,10 @@
 				6DF773E72BCA450000E88BAD /* Info.plist */,
 				6DF773ED2BCA487600E88BAD /* README.md */,
 				6DF773EE2BCA488800E88BAD /* brainstorm.md */,
+				6D978C4B2BCF60DA006AFE2D /* BookService.swift */,
+				6DC196ED2BD5C35D004B9AE3 /* FavoritesViewController.swift */,
+				6DC196EF2BD5D033004B9AE3 /* Book.swift */,
+				6DC196FA2BD70C08004B9AE3 /* UIKitExtensions.swift */,
 			);
 			path = readAR;
 			sourceTree = "<group>";
@@ -87,6 +107,12 @@
 			dependencies = (
 			);
 			name = readAR;
+			packageProductDependencies = (
+				6DC196F22BD640D1004B9AE3 /* Nuke */,
+				6DC196F42BD640D1004B9AE3 /* NukeExtensions */,
+				6DC196F62BD640D1004B9AE3 /* NukeUI */,
+				6DC196F82BD640D1004B9AE3 /* NukeVideo */,
+			);
 			productName = readAR;
 			productReference = 6DF773D62BCA44FF00E88BAD /* readAR.app */;
 			productType = "com.apple.product-type.application";
@@ -115,6 +141,9 @@
 				Base,
 			);
 			mainGroup = 6DF773CD2BCA44FF00E88BAD;
+			packageReferences = (
+				6DC196F12BD640D1004B9AE3 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 6DF773D72BCA44FF00E88BAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -142,8 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D978C4C2BCF60DA006AFE2D /* BookService.swift in Sources */,
 				6DF773DE2BCA44FF00E88BAD /* ViewController.swift in Sources */,
+				6DC196F02BD5D033004B9AE3 /* Book.swift in Sources */,
 				6DF773DA2BCA44FF00E88BAD /* AppDelegate.swift in Sources */,
+				6DC196EE2BD5C35D004B9AE3 /* FavoritesViewController.swift in Sources */,
+				6DC196FB2BD70C08004B9AE3 /* UIKitExtensions.swift in Sources */,
 				6DF773DC2BCA44FF00E88BAD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +400,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DC196F12BD640D1004B9AE3 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6DC196F22BD640D1004B9AE3 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DC196F12BD640D1004B9AE3 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		6DC196F42BD640D1004B9AE3 /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DC196F12BD640D1004B9AE3 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		6DC196F62BD640D1004B9AE3 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DC196F12BD640D1004B9AE3 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		6DC196F82BD640D1004B9AE3 /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DC196F12BD640D1004B9AE3 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6DF773CE2BCA44FF00E88BAD /* Project object */;
 }

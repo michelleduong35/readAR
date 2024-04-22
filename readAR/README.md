@@ -11,7 +11,7 @@
 ## Overview
 
 ### Description
-ReadAR, short for Read Radar, is an app that uses _____ API to recommend users books. Users can then swipe to save, or mark the book as "not interested." Users will also be able to undo their most recent action, view their favorites, and tap the book for more information.
+ReadAR, short for Read Radar, is an app that uses OpenLibrary API to recommend users books. Users can then swipe to save, or mark the book as "not interested." Users will also be able to undo their most recent action, view their favorites, and tap the book for more information.
 
 ### App Evaluation
 
