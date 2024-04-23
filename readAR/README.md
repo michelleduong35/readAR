@@ -39,7 +39,7 @@ ReadAR, short for Read Radar, is an app that uses OpenLibrary API to recommend u
 
 ### 2. Screen Archetypes
 
-- [ ] Discover (Home) Page
+- [X] Discover (Home) Page
 * Users can view books and summary details
 * Navigate to other tabs
 * Add book to favorite/not interested lists
@@ -56,12 +56,12 @@ ReadAR, short for Read Radar, is an app that uses OpenLibrary API to recommend u
 
 **Tab Navigation** (Tab to Screen)
 
-* Discover (Home)
-* Favorites
+- [X] Discover (Home)
+- [X] Favorites
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] Home
+- [X] Home
 * Book Details
 - [ ] Book Details
 * back to home/favorites
@@ -91,13 +91,27 @@ https://www.figma.com/file/kKCqRzKvtod5fRDGOk1hox/readAR?type=design&node-id=0%3
 
 ### Unit 8
 Video Walkthrough: https://www.loom.com/share/d79f6e947c8846de9ac4515114d7aecb?sid=6ca26622-64b3-4057-b705-3fac16fa1b92
-Progress: Brainstormed, finalized app idea, opened project files, start on ui for home page
+Progress:
+- [X] Brainstorm App Idea
+- [X] Create App Files
+- [X] Home Page UI
+
 
 ### Unit 9
-Video Walkthrough: 
-Plans: Finalize API, connect all tabs and flows, finish ui for all pages, connect API
+Video Walkthrough: https://www.loom.com/share/8a35fa70eabd46c385976875a8062919?sid=d786a9a7-47a7-4bd5-890d-30d3845427e4
+Progress: 
+- [X] Tab Navigation (Home & Favorites)
+- [X] Network (API) Connection
+- [X] Swipe Gestures
+- [X] No duplicate books (by ID)
+- [X] Home Page UI (Continued)
 
 ### Unit 10
 Video Walkthrough: 
-Plans: Code out app and finsh up
+Progress:
+- [] Favorites Page UI
+- [] Save favorites to favorites
+- [] Create Detailed View
+
+
 

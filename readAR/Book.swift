@@ -39,7 +39,7 @@ struct Book: Decodable {
     let ia: String
     let publicScan: Bool
     let hasFulltext: Bool
-    let availability: Availability
+    let availability: Availability?
 
     private enum CodingKeys: String, CodingKey {
         case key, title, editionCount = "edition_count", coverID = "cover_id", coverEditionKey = "cover_edition_key", subjects = "subject", iaCollection = "ia_collection", lendingLibrary = "lendinglibrary", printDisabled = "printdisabled", lendingEdition = "lending_edition", lendingIdentifier = "lending_identifier", authors, firstPublishYear = "first_publish_year", ia, publicScan = "public_scan", hasFulltext = "has_fulltext", availability

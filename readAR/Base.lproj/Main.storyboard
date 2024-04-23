@@ -21,33 +21,31 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ii2-UD-MwN">
-                                <rect key="frame" x="101.66666666666669" y="485" width="190" height="42"/>
-                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Book Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ii2-UD-MwN">
+                                <rect key="frame" x="15" y="485" width="363" height="36"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="36"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHh-CV-bEe">
                                 <rect key="frame" x="95" y="153" width="203" height="305"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Book Author" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cjw-CZ-BW6">
-                                <rect key="frame" x="86.666666666666686" y="537" width="220" height="32"/>
-                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="By Book Author" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cjw-CZ-BW6">
+                                <rect key="frame" x="100.33333333333333" y="537" width="192.33333333333337" height="28"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="28"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="subject 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpi-v9-eGf">
-                                <rect key="frame" x="31" y="597" width="331" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="subject 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpi-v9-eGf">
+                                <rect key="frame" x="25" y="590" width="343" height="22"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="22"/>
                                 <color key="textColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="subject 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCD-zM-OiZ">
-                                <rect key="frame" x="31" y="652" width="331" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="subject 2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCD-zM-OiZ">
+                                <rect key="frame" x="25" y="637" width="343" height="22"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="22"/>
@@ -58,14 +56,24 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.95997443338067634" green="0.93170998904513658" blue="0.86579173503077145" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="Ii2-UD-MwN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="426" id="MpS-o3-uQF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wpi-v9-eGf" secondAttribute="trailing" constant="25" id="07z-fq-veM"/>
+                            <constraint firstItem="Ii2-UD-MwN" firstAttribute="top" secondItem="cHh-CV-bEe" secondAttribute="bottom" constant="25" id="22C-79-PPp"/>
+                            <constraint firstItem="wpi-v9-eGf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="4cy-Yt-K4u"/>
+                            <constraint firstItem="fCD-zM-OiZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="5S6-Pr-2dv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fCD-zM-OiZ" secondAttribute="trailing" constant="25" id="9M1-9G-2Gg"/>
+                            <constraint firstItem="fCD-zM-OiZ" firstAttribute="top" secondItem="wpi-v9-eGf" secondAttribute="bottom" constant="25" id="Aqj-LU-pIa"/>
                             <constraint firstItem="Ii2-UD-MwN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Oqf-GT-3d5"/>
                             <constraint firstItem="Cjw-CZ-BW6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tcg-qw-QbG"/>
                             <constraint firstItem="cHh-CV-bEe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="94" id="Toe-wT-Sx1"/>
                             <constraint firstItem="tLK-yw-SLt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="WeF-T6-jCS"/>
+                            <constraint firstItem="Cjw-CZ-BW6" firstAttribute="top" secondItem="Ii2-UD-MwN" secondAttribute="bottom" constant="16" id="cpP-4m-Ayy"/>
                             <constraint firstItem="tLK-yw-SLt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ewV-pG-S5y"/>
+                            <constraint firstItem="fCD-zM-OiZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f7x-4m-7NI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ii2-UD-MwN" secondAttribute="trailing" constant="15" id="g3w-7J-UZc"/>
+                            <constraint firstItem="wpi-v9-eGf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gZX-0a-bto"/>
                             <constraint firstItem="cHh-CV-bEe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gcr-IQ-b7d"/>
-                            <constraint firstItem="Cjw-CZ-BW6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="478" id="jnj-9G-pot"/>
+                            <constraint firstItem="wpi-v9-eGf" firstAttribute="top" secondItem="Cjw-CZ-BW6" secondAttribute="bottom" constant="25" id="oTC-sa-PZf"/>
+                            <constraint firstItem="Ii2-UD-MwN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="q70-G2-CSy"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Discover" image="books.vertical" catalog="system" id="eEU-U3-fdR"/>
