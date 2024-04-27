@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D1C81DD2BDB08D70086AA4D /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1C81DC2BDB08D70086AA4D /* BookCell.swift */; };
 		6D978C4C2BCF60DA006AFE2D /* BookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D978C4B2BCF60DA006AFE2D /* BookService.swift */; };
 		6DC196EE2BD5C35D004B9AE3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC196ED2BD5C35D004B9AE3 /* FavoritesViewController.swift */; };
 		6DC196F02BD5D033004B9AE3 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC196EF2BD5D033004B9AE3 /* Book.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D1C81DC2BDB08D70086AA4D /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		6D978C4B2BCF60DA006AFE2D /* BookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookService.swift; sourceTree = "<group>"; };
 		6DC196ED2BD5C35D004B9AE3 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		6DC196EF2BD5D033004B9AE3 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				6DF773D92BCA44FF00E88BAD /* AppDelegate.swift */,
+				6D1C81DC2BDB08D70086AA4D /* BookCell.swift */,
 				6DF773DB2BCA44FF00E88BAD /* SceneDelegate.swift */,
 				6DF773DD2BCA44FF00E88BAD /* ViewController.swift */,
 				6DF773DF2BCA44FF00E88BAD /* Main.storyboard */,
@@ -175,6 +178,7 @@
 				6DF773DE2BCA44FF00E88BAD /* ViewController.swift in Sources */,
 				6DC196F02BD5D033004B9AE3 /* Book.swift in Sources */,
 				6DF773DA2BCA44FF00E88BAD /* AppDelegate.swift in Sources */,
+				6D1C81DD2BDB08D70086AA4D /* BookCell.swift in Sources */,
 				6DC196EE2BD5C35D004B9AE3 /* FavoritesViewController.swift in Sources */,
 				6DC196FB2BD70C08004B9AE3 /* UIKitExtensions.swift in Sources */,
 				6DF773DC2BCA44FF00E88BAD /* SceneDelegate.swift in Sources */,

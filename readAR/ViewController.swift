@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     private var books = [Book]()
     var displayedBookIDs: Set<String> = [] //to avoid displaying a repeated book
+    var book: Book!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +52,7 @@ class ViewController: UIViewController {
             return
         }
 
+        book = randomBook
         displayedBookIDs.insert(randomBook.lendingIdentifier)
         updateBookUI(with: randomBook)
     }
@@ -80,12 +82,11 @@ class ViewController: UIViewController {
         if gesture.direction == .left {
             print("Not Interested")
         } else if gesture.direction == .right {
-            print("Add to Favorites")
-            // Later, add logic to save this book to favorites
+            book?.addToFavorites()
+            print(book.title)
+            print("Added to Favorites")
         }
         showRandomBook()  // Show next random book
     }
-
-
 }
 
