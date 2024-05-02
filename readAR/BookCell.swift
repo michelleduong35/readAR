@@ -16,10 +16,6 @@ class BookCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-        bookImageView.layer.cornerRadius = 18
-        bookImageView.layer.borderWidth = 2
-        bookImageView.layer.borderColor = UIColor.white.cgColor
 
     }
 

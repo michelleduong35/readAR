@@ -107,10 +107,10 @@ Progress:
 - [X] Home Page UI (Continued)
 
 ### Unit 10
-Video Walkthrough: 
+Video Walkthrough: https://www.loom.com/share/00d07d00575a494a9a6781a8fe06705f?sid=bdd65953-1125-442e-afed-4d03d63e8cde
 Progress:
-- [] Favorites Page UI
-- [] Save favorites to favorites
+- [X] Favorites Page UI
+- [X] Save favorites to favorites
 - [] Create Detailed View
 
 

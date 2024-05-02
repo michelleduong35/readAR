@@ -30,6 +30,23 @@ class FavoritesViewController: UIViewController, UITableViewDataSource {
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+            // Anything in the defer call is guaranteed to happen last
+        do {
+            // Show the "Empty Favorites" label if there are no favorite movies
+            emptyFavoritesLabel.isHidden = !favoriteBooks.isEmpty
+        }
+        
+        let books = Book.getBooks(forKey: Book.favoritesKey)
+        // 2.
+        self.favoriteBooks = books
+        // 3.
+        tableView.reloadData()
+
+        }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return favoriteBooks.count
         }
