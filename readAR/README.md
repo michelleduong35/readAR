@@ -6,12 +6,12 @@
 2. [Product Spec](#Product-Spec)
 3. [Wireframes](#Wireframes)
 4. [Schema](#Schema)
-5. [Sprint] (#Sprint)
+5. [Sprint](#Sprint)
 
 ## Overview
 
 ### Description
-ReadAR, short for Read Radar, is an app that uses OpenLibrary API to recommend users books. Users can then swipe to save, or mark the book as "not interested." Users will also be able to undo their most recent action, view their favorites, and tap the book for more information.
+ReadAR, short for Reading Radar, is an app that uses OpenLibrary API to recommend books to users. Users can swipe to save or mark the book as "not interested." Users can also undo their most recent action, view their favorites, and tap the book for more information.
 
 ### App Evaluation
 
@@ -31,11 +31,11 @@ ReadAR, short for Read Radar, is an app that uses OpenLibrary API to recommend u
 
 * Swipe to favorite and mark books as not interested
 * Books need to be provided by API
-* Users should be able to remove books from their favorited section
+* Users should be able to remove books from their favorite section
 
 **Optional Nice-to-have Stories**
 
-* Detailed view of book
+* Detailed view of the book
 
 ### 2. Screen Archetypes
 
@@ -82,10 +82,7 @@ https://www.figma.com/file/kKCqRzKvtod5fRDGOk1hox/readAR?type=design&node-id=0%3
 [Add table of models]
 
 ### Networking
-
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+API: Open Library (https://openlibrary.org/dev/docs/api/subjects)
 
 ## Sprint
 
@@ -111,7 +108,7 @@ Video Walkthrough: https://www.loom.com/share/00d07d00575a494a9a6781a8fe06705f?s
 Progress:
 - [X] Favorites Page UI
 - [X] Save favorites to favorites
-- [] Create Detailed View
+- [ ] Create Detailed View
 
 
 
