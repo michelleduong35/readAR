@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,31 +21,34 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Book Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ii2-UD-MwN">
-                                <rect key="frame" x="15" y="485" width="363" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ii2-UD-MwN">
+                                <rect key="frame" x="15" y="483" width="363" height="36"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="36"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHh-CV-bEe">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cHh-CV-bEe">
                                 <rect key="frame" x="95" y="153" width="203" height="305"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="305" id="FAy-qy-l6o"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="By Book Author" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cjw-CZ-BW6">
-                                <rect key="frame" x="100.33333333333333" y="537" width="192.33333333333337" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Book Author" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cjw-CZ-BW6">
+                                <rect key="frame" x="25" y="535" width="343" height="28"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="28"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="subject 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpi-v9-eGf">
-                                <rect key="frame" x="25" y="590" width="343" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="subject 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpi-v9-eGf">
+                                <rect key="frame" x="25" y="588" width="343" height="22"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="22"/>
                                 <color key="textColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="subject 2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCD-zM-OiZ">
-                                <rect key="frame" x="25" y="637" width="343" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="subject 2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCD-zM-OiZ">
+                                <rect key="frame" x="25" y="635" width="343" height="22"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="22"/>
@@ -61,9 +63,11 @@
                             <constraint firstItem="Ii2-UD-MwN" firstAttribute="top" secondItem="cHh-CV-bEe" secondAttribute="bottom" constant="25" id="22C-79-PPp"/>
                             <constraint firstItem="wpi-v9-eGf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="4cy-Yt-K4u"/>
                             <constraint firstItem="fCD-zM-OiZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="5S6-Pr-2dv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cjw-CZ-BW6" secondAttribute="trailing" constant="25" id="78d-jC-HSt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fCD-zM-OiZ" secondAttribute="trailing" constant="25" id="9M1-9G-2Gg"/>
                             <constraint firstItem="fCD-zM-OiZ" firstAttribute="top" secondItem="wpi-v9-eGf" secondAttribute="bottom" constant="25" id="Aqj-LU-pIa"/>
                             <constraint firstItem="Ii2-UD-MwN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Oqf-GT-3d5"/>
+                            <constraint firstItem="cHh-CV-bEe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="SCs-8W-9J1"/>
                             <constraint firstItem="Cjw-CZ-BW6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tcg-qw-QbG"/>
                             <constraint firstItem="cHh-CV-bEe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="94" id="Toe-wT-Sx1"/>
                             <constraint firstItem="tLK-yw-SLt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="WeF-T6-jCS"/>
@@ -73,6 +77,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ii2-UD-MwN" secondAttribute="trailing" constant="15" id="g3w-7J-UZc"/>
                             <constraint firstItem="wpi-v9-eGf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gZX-0a-bto"/>
                             <constraint firstItem="cHh-CV-bEe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gcr-IQ-b7d"/>
+                            <constraint firstItem="Cjw-CZ-BW6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="nOi-Qq-1i1"/>
                             <constraint firstItem="wpi-v9-eGf" firstAttribute="top" secondItem="Cjw-CZ-BW6" secondAttribute="bottom" constant="25" id="oTC-sa-PZf"/>
                             <constraint firstItem="Ii2-UD-MwN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="q70-G2-CSy"/>
                         </constraints>
@@ -123,14 +128,15 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="HVr-MU-RqN">
-                                <rect key="frame" x="0.0" y="135" width="393" height="280"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="HVr-MU-RqN">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <color key="backgroundColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="sectionIndexBackgroundColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="143" id="346-rU-pQf" customClass="BookCell" customModule="readAR" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="143"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="346-rU-pQf" id="UIq-cq-JLZ">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="346-rU-pQf" id="UIq-cq-JLZ" customClass="BookCell" customModule="readAR" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="143"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -154,6 +160,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <accessibility key="accessibilityConfiguration" identifier="BookCell"/>
                                         <connections>
                                             <outlet property="authorLabel" destination="YF5-B3-Y9U" id="hqb-bX-A4E"/>
                                             <outlet property="bookImageView" destination="VCO-CU-jaI" id="d4I-HT-ap0"/>
@@ -168,10 +175,12 @@
                         <color key="tintColor" red="0.95997443339999999" green="0.93170998900000002" blue="0.86579173499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="gdG-N5-ePt" firstAttribute="centerY" secondItem="4b6-TS-Bwi" secondAttribute="centerY" id="0mL-Jt-tbf"/>
+                            <constraint firstItem="HVr-MU-RqN" firstAttribute="leading" secondItem="eae-WL-Hcu" secondAttribute="leading" id="29d-8Z-hIx"/>
                             <constraint firstItem="eae-WL-Hcu" firstAttribute="trailing" secondItem="HVr-MU-RqN" secondAttribute="trailing" id="61a-xX-Tv4"/>
-                            <constraint firstItem="gdG-N5-ePt" firstAttribute="top" secondItem="HVr-MU-RqN" secondAttribute="bottom" id="MnO-y9-wS7"/>
+                            <constraint firstItem="HVr-MU-RqN" firstAttribute="trailing" secondItem="eae-WL-Hcu" secondAttribute="trailing" id="JvM-xJ-dhJ"/>
                             <constraint firstItem="gdG-N5-ePt" firstAttribute="centerX" secondItem="4b6-TS-Bwi" secondAttribute="centerX" id="VbW-3b-njd"/>
-                            <constraint firstItem="HVr-MU-RqN" firstAttribute="top" secondItem="eae-WL-Hcu" secondAttribute="top" constant="75" id="x9n-FG-11j"/>
+                            <constraint firstItem="eae-WL-Hcu" firstAttribute="bottom" secondItem="HVr-MU-RqN" secondAttribute="bottom" id="Yet-HX-DhQ"/>
+                            <constraint firstItem="HVr-MU-RqN" firstAttribute="top" secondItem="eae-WL-Hcu" secondAttribute="top" id="aMf-U5-Jwa"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="favorites &lt;3" id="Ekg-Jy-h7L"/>
@@ -207,8 +216,5 @@
     <resources>
         <image name="books.vertical" catalog="system" width="128" height="107"/>
         <image name="heart" catalog="system" width="128" height="107"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
